@@ -13,7 +13,6 @@
 .container{
     width: 80%;
     margin: auto;
-    color: rgb(255, 255, 255);
 }
 .inner-header{
     width: 100%;
@@ -48,9 +47,11 @@
 .menu ul li a:hover{
     color: red;
 }
-/* header area start */
+/* header area ends here */
 
-#hero-section{
+/* hero area starts here */
+
+#home{
     width: 100vw;
     height: 100vh;
     background-image: url(../images/background.png), linear-gradient(90deg, rgb(5, 5, 5), #2e2e2e);
@@ -69,6 +70,7 @@
 }
 .hero-caption{
     width: 55%;
+    color: #ffffff;
 
 }
 .title{
@@ -95,13 +97,53 @@
     transition: 0.3s;
 }
 .btn:hover{
-    background-color: #2e2e2e;
+    background-color: #f1bc47;
+    color: #000000;
 }
 
 .hero-photo-area{
     width: 45%;
-    text-align: right;
+    text-align: center;
 }
 .photo{
     width: 300px;
+}
+/* hero area ends here */
+
+/* about area starts here */
+#about{
+    background-color: #ffffff;
+    width: 100vw;
+}
+.inner-about{
+    width: 100%;
+    margin: 30px 0px;
+}
+.inner-about h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-photo{
+    width: 60%;
+
+}
+.about-caption{
+    width: 400px;
+}
+.about-caption h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.about-caption p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
 }
