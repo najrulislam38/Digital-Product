@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header area start */
 #header{
     background-color: #424141;
     width: 100vw;
@@ -39,7 +41,67 @@
 .menu ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
+    transition: 0.3s;
+    text-transform: uppercase;
 }
 .menu ul li a:hover{
     color: red;
+}
+/* header area start */
+
+#hero-section{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/background.png), linear-gradient(90deg, rgb(5, 5, 5), #2e2e2e);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inner-hero-area{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+}
+.hero-caption{
+    width: 55%;
+
+}
+.title{
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 1.4;
+    padding-bottom: 10px;
+
+}
+.despriction{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #2e2e2e;
+}
+
+.hero-photo-area{
+    width: 45%;
+    text-align: right;
+}
+.photo{
+    width: 300px;
+}
